@@ -47,7 +47,9 @@ heart-disease-prediction/
 - **Prediction Evaluation**: Provides accuracy (0.99), classification report, and confusion matrix.
 - **Feature Importance**: Visualizes key predictors like thalach and oldpeak.
 - **Visualizations**: Includes target distribution, correlation heatmap, and feature importance plots.
-- 
+
+
+
 ## 📊 Results
 
 The Random Forest model achieves strong performance in predicting heart disease with the accuracy of 99%.
