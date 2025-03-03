@@ -47,7 +47,7 @@ heart-disease-prediction/
 - **Prediction Evaluation**: Provides accuracy (0.99), classification report, and confusion matrix.
 - **Feature Importance**: Visualizes key predictors like thalach and oldpeak.
 - **Visualizations**: Includes target distribution, correlation heatmap, and feature importance plots.
-
+- **Hyperparameter Tuning**: Supports optimization via RandomizedSearchCV for enhanced performance.
 
 
 ## 📊 Results
