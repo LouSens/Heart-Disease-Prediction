@@ -15,28 +15,29 @@ This project analyzes a heart disease dataset containing various patient attribu
 
 The dataset contains 999 records with 13 features and 1 target variable:
 
-- **age**: Age in years
-- **sex**: Sex (1 = male, 0 = female)
-- **cp**: Chest pain type (0-3)
-- **trestbps**: Resting blood pressure (in mm Hg)
-- **chol**: Serum cholesterol (in mg/dl)
-- **fbs**: Fasting blood sugar > 120 mg/dl (1 = true, 0 = false)
-- **restecg**: Resting electrocardiographic results (0-2)
-- **thalach**: Maximum heart rate achieved
-- **exang**: Exercise induced angina (1 = yes, 0 = no)
-- **oldpeak**: ST depression induced by exercise relative to rest
-- **slope**: Slope of the peak exercise ST segment (0-2)
-- **ca**: Number of major vessels colored by fluoroscopy (0-4)
-- **thal**: Thalassemia (0-3)
-- **target**: Heart disease diagnosis (1 = disease, 0 = no disease)
+- **age**: Patient age in years.
+- **sex**: Gender (1 = male, 0 = female).
+- **cp**: Chest pain type (0-3).
+- **trestbps**: Resting blood pressure (mmHg).
+- **chol**: Serum cholesterol (mg/dl).
+- **fbs**: Fasting blood sugar > 120 mg/dl (1 = true, 0 = false).
+- **restecg**: Resting ECG results (0-2).
+- **thalach**: Maximum heart rate achieved (bpm).
+- **exang**: Exercise-induced angina (1 = yes, 0 = no).
+- **oldpeak**: ST depression induced by exercise.
+- **slope**: Slope of peak exercise ST segment (0-2).
+- **ca**: Number of major vessels (0-4).
+- **thal**: Thalassemia indicator (0-3).
+- **target**: Heart disease presence (1 = yes, 0 = no).
 
 ## 🏗️ Project Structure
 
 heart-disease-prediction/
+````
 │
 ├── heart.csv                          # Dataset file
-├── heart_disease_prediction.ipynb     # Main script
-
+├── Heart_Disease_Prediction.ipynb     # Main script
+````
 
 ## 🚀 Features
 
